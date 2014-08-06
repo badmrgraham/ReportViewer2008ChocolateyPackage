@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>reportviewer2008</id>
+    <title>Microsoft Visual Studio 2008 Report Viewer</title>
+    <version>9.0.30729.1</version>
+    <authors>Microsoft</authors>
+    <owners>Ryan Graham</owners>
+    <summary>The Microsoft Visual Studio 2008 Report Viewer redistributable</summary>
+    <description>The Microsoft Visual Studio 2008 Report Viewer redistributable</description>
+    <projectUrl>http://www.microsoft.com/en-ca/download/details.aspx?id=6576</projectUrl>
+    <tags>visual studio 2008 report viewer</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.microsoft.com</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
